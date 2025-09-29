@@ -4,3 +4,5 @@ project(kernex
 
 add_subdirectory(ext)
 add_subdirectory(kernel)
+
+include(cmake/images.cmake)
