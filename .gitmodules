@@ -1,0 +1,12 @@
+[submodule "ext/freestnd-c-hdrs"]
+	path = ext/freestnd-c-hdrs
+	url = https://codeberg.org/OSDev/freestnd-c-hdrs.git
+[submodule "ext/freestnd-cxx-hdrs"]
+	path = ext/freestnd-cxx-hdrs
+	url = https://codeberg.org/OSDev/freestnd-cxx-hdrs.git
+[submodule "ext/cc-runtime"]
+	path = ext/cc-runtime
+	url = https://codeberg.org/OSDev/cc-runtime.git
+[submodule "ext/limine-protocol"]
+	path = ext/limine-protocol
+	url = https://codeberg.org/Limine/limine-protocol.git
