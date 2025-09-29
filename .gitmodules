@@ -10,3 +10,6 @@
 [submodule "ext/limine-protocol"]
 	path = ext/limine-protocol
 	url = https://codeberg.org/Limine/limine-protocol.git
+[submodule "ext/limine-bootloader"]
+	path = ext/limine-bootloader
+	url = https://github.com/limine-bootloader/limine.git
