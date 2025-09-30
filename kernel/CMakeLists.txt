@@ -2,6 +2,7 @@ add_executable(kernel
     src/libk.cpp
     src/main.cpp
     src/boot/limine.cpp
+    src/drivers/fb.cpp
 )
 target_include_directories(kernel PUBLIC
     inc/
