@@ -1,10 +1,11 @@
 #include "boot/limine.hpp"
 #include "libk.hpp"
+#include "drivers/fb.hpp"
 
 extern "C" void kmain()
 {
     libk::construct_globals();
-
+    drivers::fb::init_framebuffer(boot::limine::get_framebuffer());
     auto* framebuffer{boot::limine::get_framebuffer()};
 
     // Note: we assume the framebuffer model is RGB with 32-bit pixels.

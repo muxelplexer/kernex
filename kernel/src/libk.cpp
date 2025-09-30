@@ -1,6 +1,7 @@
 #include <cstdint>
 
 #include "libk.hpp"
+#include "drivers/fb.hpp"
 
 namespace libk
 {
@@ -8,6 +9,7 @@ namespace libk
     extern "C" void (*__init_array_end[])();
 
     void hcf() {
+        drivers::fb::bsod();
         for (;;) {
             asm ("wfi");
         }
